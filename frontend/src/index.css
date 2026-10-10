@@ -1,0 +1,62 @@
+:root {
+  --mv-primary: #0284c7;
+  --mv-primary-dark: #0369a1;
+  --mv-secondary: #0d9488;
+  --mv-bg: #f8fafc;
+  --mv-card-bg: #ffffff;
+  --mv-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+}
+
+body {
+  background-color: var(--mv-bg);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: #334155;
+  min-height: 100vh;
+}
+
+.mv-card {
+  background: var(--mv-card-bg);
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  box-shadow: var(--mv-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mv-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+}
+
+.mv-hero {
+  background: linear-gradient(135deg, #0284c7 0%, #0f766e 100%);
+  color: white;
+  border-radius: 1.5rem;
+  padding: 3.5rem 2rem;
+  box-shadow: 0 20px 25px -5px rgba(2, 132, 199, 0.2);
+}
+
+.mv-badge-patient {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+}
+
+.mv-badge-doctor {
+  background-color: #ccfbf1;
+  color: #0f766e;
+  border: 1px solid #99f6e4;
+}
+
+.btn-mv-primary {
+  background-color: var(--mv-primary);
+  color: white;
+  border: none;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.btn-mv-primary:hover {
+  background-color: var(--mv-primary-dark);
+  color: white;
+}
