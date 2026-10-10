@@ -5,6 +5,9 @@ MediVault is a secure medical record storage and sharing platform developed as a
 #frontend link
 https://medi-vault-2z7x.vercel.app
 
+#i have entered wrong link while submitting this is working one
+https://medi-vault-2z7x.vercel.app
+
 
 ## Tech Stack
 
