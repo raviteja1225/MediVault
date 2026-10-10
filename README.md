@@ -8,6 +8,8 @@ https://medi-vault-2z7x.vercel.app
 #i have entered wrong link while submitting this is working one
 https://medi-vault-2z7x.vercel.app
 
+# Watch the MediVault application walkthrough to see the user interface and core features.
+https://drive.google.com/file/d/1ISmZtvcH3T8P2HDSyh8Ucu1f7oF9TZrc/view?usp=sharing
 
 ## Tech Stack
 
